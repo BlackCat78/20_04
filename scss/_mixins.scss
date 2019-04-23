@@ -1,0 +1,20 @@
+@mixin button {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $font-aleo;
+    color: $color-white;
+    // padding: 20px 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 225px;
+    background-color: $color-blue;
+}
+
+// @mixin page-title($font-size) {
+//     font-size: $font-size;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     letter-spacing: 8.64px;
+// }

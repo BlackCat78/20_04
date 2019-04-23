@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+body {
+  font-size: 14px; }
+
+.pacifico {
+  font-family: 'Pacifico'; }
+
+.content-box {
+  width: 1180px; }

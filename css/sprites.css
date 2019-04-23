@@ -1,0 +1,34 @@
+.icon_shopping, .icon_carrot, .icon_globe, .icon_hand, .scroll{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.icon_shopping{
+	background-position: 0 -3px ;
+	width: 47px;
+	height: 44px;
+}
+
+.icon_carrot{
+	background-position: -292px -1px ;
+	width: 55px;
+	height: 56px;
+}
+
+.icon_globe{
+	background-position: -196px 0;
+	width: 54px;
+	height: 54px;
+}
+
+.icon_hand{
+	background-position: -95px -1px ;
+	width: 55px;
+	height: 49px;
+}
+
+.scroll{
+	background-position: -162px -106px ;
+	width: 24px;
+	height: 40px;
+}
+
