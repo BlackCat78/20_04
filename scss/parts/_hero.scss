@@ -26,17 +26,24 @@
         right: 156px;
         top: 2px;
         text-decoration: none;
-        padding: 24px 0;
+        padding: 8px 0;
         font-family: $font-aleo;
         color: $color-white;
-        padding-right: 40px;
+        // padding-right: 5px;
         width: 148px;
         height: 58px;
-        background-color: $color-blue;
-        background-image: url(../img/search.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 91% 50%;
+        background-color: $color-dark-blue;
+        // background-image: url(../img/search.svg);
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: 91% 50%;
+        
+        .icon-search {
+            position: relative;
+            top: 5px;
+            margin-left: 20px;
+            font-size: 30px;
+        }
     }
     &__scrolling-skin {
         margin-top: 120px;
@@ -96,10 +103,14 @@
             }
         }
         &__menu a {
+            padding: 10px 5px;
+            padding-top: 12px;
             font-family: $font-aleo;
             font-weight: 400;
             text-decoration: none;
+            border-radius: 5px;
             text-transform: uppercase;
+            // background-color: yellow;
             color: $color-white;
         }
     }
@@ -148,9 +159,34 @@
     letter-spacing: 0.84px;        
     }
     &__button {
+        position: relative;
         margin-top: 45px;
         @include button;
+        z-index: 3;
     }
+    &--b-back1 {
+        position: absolute;
+        // left: 20px;
+        bottom: 9.5em;
+        // margin-left: 50px;
+        width: 8em;
+        border-style: solid;
+        border-color: $color-blue-button transparent;
+        border-width: 0 4em 4.5em 0;
+        z-index: 2;
+    }
+    &--b-back2 {
+        position: absolute;
+        // left: 20px;
+        bottom: 9.5em;
+        // margin-left: 50px;
+        width: 16.1em;
+        border-style: solid;
+        border-color: $color-blue;
+        border-width: 0 6em 4.5em 0;
+        z-index: 1;
+    }
+
 }
 
 // Under Page 2
@@ -206,6 +242,7 @@
 }
 
 .page3 {
+    position: relative;
     padding-top: 225px;
     padding-bottom: 100px;
     padding-left: 15px;
@@ -223,14 +260,39 @@
         padding-top: 25px;
     }
     &__button {
+        position: relative;
         margin-top: 45px;
         @include button;
+        z-index: 3;
+    }
+    &--b-back1 {
+        position: absolute;
+        // left: 20px;
+        bottom: 10.7em;
+        // margin-left: 50px;
+        width: 8em;
+        border-style: solid;
+        border-color: $color-blue-button transparent;
+        border-width: 0 4em 4.5em 0;
+        z-index: 2;
+    }
+    &--b-back2 {
+        position: absolute;
+        // left: 20px;
+        bottom: 10.7em;
+        // margin-left: 50px;
+        width: 16.1em;
+        border-style: solid;
+        border-color: $color-blue;
+        border-width: 0 6em 4.5em 0;
+        z-index: 1;
     }
 }
 
 // Page 4
 
 .page4 {
+    position: relative;
     padding-top: 225px;
     padding-bottom: 100px;
     padding-left: 55%;
@@ -248,8 +310,32 @@
         padding-top: 25px;
     }
     &__button {
+        position: relative;
         margin-top: 45px;
         @include button;
+        z-index: 3;
+    }
+    &--b-back1 {
+        position: absolute;
+        // left: 20px;
+        bottom: 10.7em;
+        // margin-left: 50px;
+        width: 8em;
+        border-style: solid;
+        border-color: $color-blue-button transparent;
+        border-width: 0 4em 4.5em 0;
+        z-index: 2;
+    }
+    &--b-back2 {
+        position: absolute;
+        // left: 20px;
+        bottom: 10.7em;
+        // margin-left: 50px;
+        width: 16.1em;
+        border-style: solid;
+        border-color: $color-blue;
+        border-width: 0 6em 4.5em 0;
+        z-index: 1;
     }
 }
 
